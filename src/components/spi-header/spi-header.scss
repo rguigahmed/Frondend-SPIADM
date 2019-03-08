@@ -1,22 +1,39 @@
+
 @import "../../../node_modules/bulma/sass/components/navbar.sass";
 @import "../../../node_modules/bulma/sass/elements/button.sass";
+.navbar{
+    background-color: rgb(01, 103, 194);
+}
+.navbar-menu{
+    background-color: rgb(01, 103, 194);;
+}
 
-.navbar-brand .navbar-item {
-    font-size: 3.8em;
+.navbar-brand .navbar-itemm {
+    font-size: 2.8em;
+    font-family: "Bookman Old Style",serif;
+    margin-right: 1.25em;
+    
+    
+}
+strong {
+    color: rgb(235, 240, 240);
+    font-weight: 350;
 }
 
 .navbar-menu .navbar-item {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: "Bookman Old Style", sans-serif;
+    border-style: none;
 }
 
 .navbar-menu .navbar-item svg  {
-    margin-right: .25em;
-    margin-left: 1em;
+    margin-right: 4.25em;
+    margin-left: 2.6em;
 }
 
 .navbar a {
-    color: inherit; /* blue colors for links too */
+    color: #443c3c; 
   }
 .navbar a:hover {
-    color: $link;
+    color:  #ece7e7;
 }

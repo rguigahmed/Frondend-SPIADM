@@ -17,13 +17,13 @@ export class SpiHeader {
   render() {
     return (
       <nav
-        class="navbar is-light has-shadow is-spaced"
+        class="navbar has-shadow is-spaced"
         role="navigation"
         aria-label="main navigation"
       >
         <div class="container">
           <div class="navbar-brand">
-            <span class="navbar-item">
+            <span class="navbar-itemm">
               <strong>SPI-ADM</strong>
             </span>
 
@@ -44,17 +44,34 @@ export class SpiHeader {
 
           <div
             id="navbar-content"
-            class="navbar-menu"
+            class="navbar-menu "
             ref={el => (this.menu = el)}
           >
-            <div class="navbar-start">
+            <div class="navbar-start" >
               <span class="navbar-item">
-                <stencil-route-link url="/adm/" activeClass="none">
-                  <span class="has-text-primary">
+              <stencil-route-link url="/enseignant" activeClass="none">
+                  <span class="">
                     <i class="fas fa-tools" />
                   </span>{" "}
-                  Formation
+                  <a class="button is-normal">Enseignant</a>
                 </stencil-route-link>
+                </span>
+                <span class="navbar-item">
+                <stencil-route-link url="/formation" activeClass="none">
+                  <span class="">
+                    <i class="fas fa-tools" />
+                  </span>{" "}
+                  <a class="button is-normal">Formation</a>
+                </stencil-route-link>
+                </span>
+                <span class="navbar-item">
+                <stencil-route-link url="/formation" activeClass="none">
+                  <span class="">
+                    <i class="fas fa-tools" />
+                  </span>{" "}
+                  <a class="button is-normal">Promotion</a>
+                </stencil-route-link>
+              
               </span>
 
             </div>

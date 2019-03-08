@@ -10,9 +10,12 @@ export class SpiHome {
       <div class="spi-home">
         <div class="container is-large has-text-centered">
           <h1 class="title is-bold">Bienvenue sur l'interface du SPI !</h1>
-          <h2 class="subtitle">Pour continuer veuillez-vous identifier.</h2>
+          <h2 class="subtitle">J'ai choisi d'afficher juste les enseignants </h2>
         </div>
       </div>
+      
     );
+    
   }
+  
 }

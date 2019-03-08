@@ -1,0 +1,22 @@
+@import "../../../node_modules/bulma/sass/components/card.sass";
+
+.columns {
+    margin-top: 20vh
+}
+.marginn {
+    margin-top: 20vh
+}
+table {
+    border-collapse:collapse;
+    width:90%;
+    }
+   th, td {
+    border:1px solid black;
+    width:20%;
+    }
+   td {
+    text-align:center;
+    }
+   caption {
+    font-weight:bold
+    }
